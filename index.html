@@ -37,12 +37,12 @@
     </style>
   </head>
   <body class="font-manrope">
-    <header>
+    <header class="container mx-auto">
       <!-- banner area -->
       <div class="hero min-w-screen">
         <div class="hero-content flex-col lg:flex-row-reverse">
           <div>
-            <img src="images/banner.png" class="max-w-2xl" />
+            <img src="images/banner.png" class="max-w-sm lg:max-w-2xl" />
             <!-- badge -->
             <div
               class="flex items-center relative bg-white gap-4 p-5 w-64 rounded-lg drop-shadow-2xl -mt-28 z-10"
@@ -58,13 +58,13 @@
             </div>
           </div>
 
-          <div>
-            <h1 class="text-7xl font-extrabold">
+          <div class="text-center lg:text-left max-w-[300px] lg:max-w-xl">
+            <h1 class="text-4xl lg:text-7xl font-extrabold leading-[70px]">
               It's good<br />
               tea time at The<br />
               Tea House
             </h1>
-            <p class="my-7">
+            <p class="my-7 leading-9">
               Tea and Botanical Solutions Supplier Give Optimum<br />
               Satisfaction To Your Taste Buds.
             </p>
@@ -75,7 +75,70 @@
         </div>
       </div>
     </header>
-    <main></main>
+
+    <main class="container mx-auto">
+      <!-- feature product -->
+      <section class="text-center my-32">
+        <h2 class="text-5xl font-extrabold mb-5">Our Featured Products</h2>
+        <p class="font-medium leading-7 max-w-[901px] mx-auto mb-12">
+          There are many variations of passages of Lorem Ipsum available, but
+          the majority have suffered alteration in some form, by injected
+          humour, or randomised words which don't look even slightly believable.
+        </p>
+
+        <!-- card layout -->
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+          <!-- card one -->
+          <div class="card bg-gradient-to-b from-[#f4f4f4] to-white">
+            <figure class="py-8 px-16">
+              <img src="images/tea-1.png" alt="card" />
+            </figure>
+            <div class="card-body text-center">
+              <h3 class="text-2xl font-extrabold">Milk Tea</h3>
+              <p class="font-semibold">
+                If a dog chews shoes whose shoes does he choose?
+              </p>
+            </div>
+          </div>
+          <!-- card two -->
+          <div class="card bg-gradient-to-b from-[#f4f4f4] to-white">
+            <figure class="py-8 px-16">
+              <img src="images/tea-2.png" alt="card" />
+            </figure>
+            <div class="card-body text-center">
+              <h3 class="text-2xl font-extrabold">Black Tea</h3>
+              <p class="font-semibold">
+                Creamer could be replaced by fresh milk
+              </p>
+            </div>
+          </div>
+          <!-- card three -->
+          <div class="card bg-gradient-to-b from-[#f4f4f4] to-white">
+            <figure class="py-8 px-16">
+              <img src="images/tea-3.png" alt="card" />
+            </figure>
+            <div class="card-body text-center">
+              <h3 class="text-2xl font-extrabold">Lemon Tea</h3>
+              <p class="font-semibold">
+                Creamer could be replaced by fresh milk
+              </p>
+            </div>
+          </div>
+          <!-- card four -->
+          <div class="card bg-gradient-to-b from-[#f4f4f4] to-white">
+            <figure class="py-8 px-16">
+              <img src="images/tea-4.png" alt="card" />
+            </figure>
+            <div class="card-body text-center">
+              <h3 class="text-2xl font-extrabold">Green Tea</h3>
+              <p class="font-semibold">
+                Creamer could be replaced by fresh milk
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
     <footer></footer>
   </body>
 </html>
